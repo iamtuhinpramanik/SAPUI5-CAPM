@@ -1,0 +1,138 @@
+<mvc:View
+    controllerName="com.mycompany.employeemanagement.controller.EmployeeList"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <Table
+                id="employeeTable"
+                growing="true"
+                growingThreshold="8"
+                items="{Employee>/Employees}"
+               
+            >
+                <headerToolbar>
+                    <OverflowToolbar id="_IDGenOverflowToolbar">
+                        <Text
+                            id="headerText"
+                            text="Employees List"
+                        />
+                        <ToolbarSpacer id="headerToolbarSpacer" />
+                        <Button
+                            id="add"
+                            text="Add"
+                            icon="sap-icon://add"
+                            press="onAdd"
+                        />
+                        <Button
+                            id="edit"
+                            text="Update"
+                            icon="sap-icon://edit"
+                            press="onUpdate"
+                        />
+                        <Button
+                            id="delete"
+                            text="Delete"
+                            icon="sap-icon://delete"
+                            press="onDelete"
+                        />
+                        <Button
+                            id="refresh"
+                            text="Refresh"
+                            icon="sap-icon://refresh"
+                            press="onRefresh"
+                        />
+                    </OverflowToolbar>
+                </headerToolbar>
+                <columns>
+                    <Column id="_IDGenColumn">
+                        <Text
+                            id="_IDGenText"
+                            text="Employee ID"
+                        />
+                    </Column>
+                    <Column id="_IDGenColumn1">
+                        <Text
+                            id="_IDGenText1"
+                            text="Name"
+                        />
+                    </Column>
+                    <Column id="_IDGenColumn01">
+                        <Text
+                            id="_IDGenText01"
+                            text="Email"
+                        />
+                    </Column>
+                    <Column id="_IDGenColumn02">
+                        <Text
+                            id="_IDGenText02"
+                            text="Phone No"
+                        />
+                    </Column>
+                    <Column id="_IDGenColumn2">
+                        <Text
+                            id="_IDGenText2"
+                            text="Position"
+                        />
+                    </Column>
+                    <Column id="_IDGenColumn5">
+                        <Text
+                            id="_IDGenText7"
+                            text="Hire Date"
+                        />
+                    </Column>
+                    <Column id="_IDGenColumn6">
+                        <Text
+                            id="_IDGenText9"
+                            text="Salary"
+                        />
+                    </Column>
+                    <Column id="_IDGenColumn3">
+                        <Text
+                            id="_IDGenText3"
+                            text="Actions"
+                        />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem id="_IDGenColumnListItem" >
+                        <cells>
+                            <Text
+                                id="_IDGenText4"
+                                text="{Employee>EmployeeID}"
+                            />
+                            <Text
+                                id="_IDGenText5"
+                                text="{Employee>EmployeeName}"
+                            />
+                            <Text
+                                id="_IDGenText011"
+                                text="{Employee>EmployeeEmail}"
+                            />
+                            <Text
+                                id="_IDGenText012"
+                                text="{Employee>EmployeePhoneNo}"
+                            />
+                            <Text
+                                id="_IDGenText6"
+                                text="{Employee>Position}"
+                            />
+                             <Text id="_IDGenText8" text="{hireDate}"/>
+                           <ObjectNumber id="_IDGenObjectNumber1" number="{Employee>salary}" unit="USD"/>
+                            <Button
+                                id="_IDGenButton"
+                                type="Emphasized"
+                                text="View Details"
+                                press="onViewDetails"
+                            />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>

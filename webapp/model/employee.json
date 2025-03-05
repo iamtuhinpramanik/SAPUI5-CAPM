@@ -1,0 +1,185 @@
+{
+    "Employees": [
+      {
+        "EmployeeID": "E001",
+        "EmployeeName": "Sourav Banerjee",
+        "EmployeeEmail": "sourav.banerjee@example.com",
+        "EmployeePhoneNo": "+91-9876543210",
+        "Position": "Software Engineer",
+        "hireDate": "2018-06-12",
+        "salary": 75000
+      },
+      {
+        "EmployeeID": "E002",
+        "EmployeeName": "Ananya Chatterjee",
+        "EmployeeEmail": "ananya.chatterjee@example.com",
+        "EmployeePhoneNo": "+91-9876543211",
+        "Position": "Project Manager",
+        "hireDate": "2015-09-25",
+        "salary": 120000
+      },
+      {
+        "EmployeeID": "E003",
+        "EmployeeName": "Rahul Dutta",
+        "EmployeeEmail": "rahul.dutta@example.com",
+        "EmployeePhoneNo": "+91-9876543212",
+        "Position": "Business Analyst",
+        "hireDate": "2017-04-19",
+        "salary": 95000
+      },
+      {
+        "EmployeeID": "E004",
+        "EmployeeName": "Priya Sen",
+        "EmployeeEmail": "priya.sen@example.com",
+        "EmployeePhoneNo": "+91-9876543213",
+        "Position": "HR Manager",
+        "hireDate": "2016-03-11",
+        "salary": 85000
+      },
+      {
+        "EmployeeID": "E005",
+        "EmployeeName": "Arindam Ghosh",
+        "EmployeeEmail": "arindam.ghosh@example.com",
+        "EmployeePhoneNo": "+91-9876543214",
+        "Position": "Data Scientist",
+        "hireDate": "2019-07-15",
+        "salary": 105000
+      },
+      {
+        "EmployeeID": "E006",
+        "EmployeeName": "Sanjay Mukherjee",
+        "EmployeeEmail": "sanjay.mukherjee@example.com",
+        "EmployeePhoneNo": "+91-9876543215",
+        "Position": "Network Engineer",
+        "hireDate": "2020-10-10",
+        "salary": 70000
+      },
+      {
+        "EmployeeID": "E007",
+        "EmployeeName": "Madhumita Roy",
+        "EmployeeEmail": "madhumita.roy@example.com",
+        "EmployeePhoneNo": "+91-9876543216",
+        "Position": "UI/UX Designer",
+        "hireDate": "2018-01-08",
+        "salary": 78000
+      },
+      {
+        "EmployeeID": "E008",
+        "EmployeeName": "Debabrata Paul",
+        "EmployeeEmail": "debabrata.paul@example.com",
+        "EmployeePhoneNo": "+91-9876543217",
+        "Position": "Technical Lead",
+        "hireDate": "2014-05-22",
+        "salary": 130000
+      },
+      {
+        "EmployeeID": "E009",
+        "EmployeeName": "Nandini Das",
+        "EmployeeEmail": "nandini.das@example.com",
+        "EmployeePhoneNo": "+91-9876543218",
+        "Position": "QA Engineer",
+        "hireDate": "2021-06-30",
+        "salary": 65000
+      },
+      {
+        "EmployeeID": "E010",
+        "EmployeeName": "Rupam Bhattacharya",
+        "EmployeeEmail": "rupam.bhattacharya@example.com",
+        "EmployeePhoneNo": "+91-9876543219",
+        "Position": "DevOps Engineer",
+        "hireDate": "2017-09-12",
+        "salary": 98000
+      },
+      {
+        "EmployeeID": "E011",
+        "EmployeeName": "Supriya Bose",
+        "EmployeeEmail": "supriya.bose@example.com",
+        "EmployeePhoneNo": "+91-9876543220",
+        "Position": "System Administrator",
+        "hireDate": "2019-03-17",
+        "salary": 72000
+      },
+      {
+        "EmployeeID": "E012",
+        "EmployeeName": "Abhishek Sengupta",
+        "EmployeeEmail": "abhishek.sengupta@example.com",
+        "EmployeePhoneNo": "+91-9876543221",
+        "Position": "Database Administrator",
+        "hireDate": "2016-08-21",
+        "salary": 87000
+      },
+      {
+        "EmployeeID": "E013",
+        "EmployeeName": "Tanisha Basu",
+        "EmployeeEmail": "tanisha.basu@example.com",
+        "EmployeePhoneNo": "+91-9876543222",
+        "Position": "Marketing Manager",
+        "hireDate": "2015-11-29",
+        "salary": 95000
+      },
+      {
+        "EmployeeID": "E014",
+        "EmployeeName": "Soham Chakraborty",
+        "EmployeeEmail": "soham.chakraborty@example.com",
+        "EmployeePhoneNo": "+91-9876543223",
+        "Position": "Front-end Developer",
+        "hireDate": "2020-07-06",
+        "salary": 72000
+      },
+      {
+        "EmployeeID": "E015",
+        "EmployeeName": "Kajal Guha",
+        "EmployeeEmail": "kajal.guha@example.com",
+        "EmployeePhoneNo": "+91-9876543224",
+        "Position": "Back-end Developer",
+        "hireDate": "2018-02-14",
+        "salary": 88000
+      },
+      {
+        "EmployeeID": "E016",
+        "EmployeeName": "Rajesh Majumdar",
+        "EmployeeEmail": "rajesh.majumdar@example.com",
+        "EmployeePhoneNo": "+91-9876543225",
+        "Position": "IT Support Specialist",
+        "hireDate": "2017-01-05",
+        "salary": 62000
+      },
+      {
+        "EmployeeID": "E017",
+        "EmployeeName": "Ishita Kar",
+        "EmployeeEmail": "ishita.kar@example.com",
+        "EmployeePhoneNo": "+91-9876543226",
+        "Position": "Cloud Engineer",
+        "hireDate": "2019-09-23",
+        "salary": 99000
+      },
+      {
+        "EmployeeID": "E018",
+        "EmployeeName": "Saptarshi Saha",
+        "EmployeeEmail": "saptarshi.saha@example.com",
+        "EmployeePhoneNo": "+91-9876543227",
+        "Position": "Security Analyst",
+        "hireDate": "2018-11-15",
+        "salary": 91000
+      },
+      {
+        "EmployeeID": "E019",
+        "EmployeeName": "Meghna Nandi",
+        "EmployeeEmail": "meghna.nandi@example.com",
+        "EmployeePhoneNo": "+91-9876543228",
+        "Position": "Software Tester",
+        "hireDate": "2021-02-28",
+        "salary": 68000
+      },
+      {
+        "EmployeeID": "E020",
+        "EmployeeName": "Sayan Bhattacharjee",
+        "EmployeeEmail": "sayan.bhattacharjee@example.com",
+        "EmployeePhoneNo": "+91-9876543229",
+        "Position": "AI Engineer",
+        "hireDate": "2020-12-01",
+        "salary": 115000
+      }
+    ]
+  }
+  
