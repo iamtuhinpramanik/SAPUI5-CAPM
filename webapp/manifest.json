@@ -75,17 +75,26 @@
             "routes": [
                 {
                     "name": "RouteEmployeeList",
-                    "pattern": ":?query:",
-                    "target": [
-                        "TargetEmployeeList"
-                    ]
+                    "pattern": "",
+                    "target":"EmployeeList"
+                },
+                {
+                    "name": "EmployeeDetails",
+                    "pattern": "EmployeeDetails/{EmployeeId}",
+                    "target":"EmployeeDetails"
                 }
             ],
             "targets": {
-                "TargetEmployeeList": {
+                "EmployeeList": {
                     "id": "EmployeeList",
                     "name": "EmployeeList"
+                },
+                "EmployeeDetails":{
+                    "id":"EmployeeDetails",
+                    "name":"EmployeeDetails"
+
                 }
+
             }
         },
         "rootView": {

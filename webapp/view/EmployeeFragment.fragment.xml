@@ -1,0 +1,38 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+>
+    <HBox
+        id="hbox1"
+        justifyContent="Center"
+        class="sapUiSmallMarginTop"
+    >
+        <Text
+            id="_IDGenText10"
+            text="Hello Master ji"
+        />
+    </HBox>
+    <VBox
+        id="VBox1"
+        
+        class="sapUiSmallMarginBegin"
+    >
+        <Button
+            id="MasterJi"
+            text=" Master Ji"
+            icon="sap-icon://employee"
+            type="Success"
+            tooltip="Hello Master ji"
+            press="onPressMasterji"
+        />
+        
+    </VBox>
+               <VBox id="_IDGenVBox2" alignItems="Center">
+        <Image id="_IDGenImage" src="resource/images/MasterJi.jpeg" width="300px" height="300px"/>
+        <core:Icon id="icon" src="sap-icon://personal-placeholder" size="16px" color="green"/>
+        <Link id="_IDGenLink" text="SKU" press="onSKUPress"/>
+        
+    </VBox>
+
+
+</core:FragmentDefinition>

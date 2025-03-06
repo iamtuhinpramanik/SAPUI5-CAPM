@@ -16,6 +16,7 @@ sap.ui.define([
             var oItem = oEvent.getSource().getParent();
             var oContext = oItem.getBindingContext("Employee");
             var oEmployee = oContext.getObject();
+            
 
             // Display Employee Details in a MessageBox
             MessageBox.success(
@@ -27,9 +28,19 @@ sap.ui.define([
                 "Position : " + oEmployee.Position + "\n" +
                 "Salary : " + oEmployee.salary + " USD",
                 {
-                    title: "Employee Info"
+                    title: "Employee Info",
+                    onClose:function(oAction){
+                            if(oAction===sap.m.MessageBox.Action.OK){
+                            this.getOwnerComponent().getRouter().navTo("EmployeeDetails",{
+                                EmployeeId:oEmployee.EmployeeID
+                            });
+                            }
+                            
+                        }.bind(this)
+                      
                 }
             );
+          
         }
     });
 
