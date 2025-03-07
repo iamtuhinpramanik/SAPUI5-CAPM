@@ -16,6 +16,8 @@ sap.ui.define([
             var oItem = oEvent.getSource().getParent();
             var oContext = oItem.getBindingContext("Employee");
             var oEmployee = oContext.getObject();
+            console.log(oEmployee);
+            
             
 
             // Display Employee Details in a MessageBox

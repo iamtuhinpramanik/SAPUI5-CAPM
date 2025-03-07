@@ -34,7 +34,7 @@
 
 
 
-         <IconTabBar
+         <!-- <IconTabBar
 		id="idIconTabBarFiori2"
 		expanded="{device>/isNoPhone}"
 		class="sapUiResponsiveContentPadding">
@@ -64,7 +64,7 @@
 				<Text id="_IDGenText15" text="People content goes here ..." />
 			</IconTabFilter>
 		</items>
-	</IconTabBar>
+	</IconTabBar> -->
     </Page>
     
 </mvc:View>
